@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="ext_c08c5b33"
+              permission_id="bypass"
+              permission_type="flag"
+              interface_group_id="ext_c08c5b33"
+              display_order="1"/>
+</permissions>
