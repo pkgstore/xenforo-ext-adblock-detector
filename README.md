@@ -1,0 +1,1 @@
+# xenforo-ext-adblock-detector
