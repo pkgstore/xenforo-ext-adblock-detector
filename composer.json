@@ -1,0 +1,42 @@
+{
+  "name": "pkgstore/xenforo-ext-adblock-detector",
+  "type": "xenforo-extension",
+  "description": "Detecting ad blocking in browser.",
+  "license": "MIT",
+  "homepage": "https://ihub.to/",
+  "keywords": [
+    "xenforo",
+    "adblock"
+  ],
+  "authors": [
+    {
+      "name": "iHub TO",
+      "email": "mail@ihub.to",
+      "homepage": "https://ihub.to/",
+      "role": "Developer"
+    },
+    {
+      "name": "Kitsune Solar",
+      "email": "mail@kitsune.solar",
+      "homepage": "https://kitsune.solar/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pkgstore/xenforo-ext-adblock-detector/issues",
+    "source": "https://github.com/pkgstore/xenforo-ext-adblock-detector"
+  },
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {}
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "extra": {
+    "installer-name": "ext_c08c5b33"
+  }
+}

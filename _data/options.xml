@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="ext_c08c5b33_path" edit_format="textbox" data_type="string">
+    <default_value><![CDATA[ext.advert.min.js]]></default_value>
+    <relation group_id="ext_c08c5b33" display_order="10"/>
+  </option>
+  <option option_id="ext_c08c5b33_title" edit_format="textbox" data_type="string">
+    <default_value><![CDATA[]]></default_value>
+    <relation group_id="ext_c08c5b33" display_order="20"/>
+  </option>
+  <option option_id="ext_c08c5b33_message" edit_format="textbox" data_type="string">
+    <default_value><![CDATA[]]></default_value>
+    <edit_format_params>rows=5</edit_format_params>
+    <relation group_id="ext_c08c5b33" display_order="30"/>
+  </option>
+</options>

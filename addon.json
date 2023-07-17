@@ -1,0 +1,21 @@
+{
+  "legacy_addon_id": "",
+  "title": "AdBlock Detector",
+  "description": "Detecting ad blocking in browser. (ext_c08c5b33)",
+  "version_id": 1000170,
+  "version_string": "1.0.1",
+  "dev": "iHub TO",
+  "dev_url": "https://ihub.to/",
+  "support_url": "https://github.com/pkgstore/xenforo-ext-adblock-detector/issues",
+  "require": {
+    "XF": [
+      2010070,
+      "XenForo 2.1.0+"
+    ],
+    "php": [
+      "7.3.0",
+      "PHP 7.3.0+"
+    ]
+  },
+  "icon": "fa-radiation-alt"
+}

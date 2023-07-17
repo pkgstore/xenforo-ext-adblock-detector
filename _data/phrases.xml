@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="ext_c08c5b33_title" version_id="1000070" version_string="1.0.0"><![CDATA[Здравствуйте!]]></phrase>
+  <phrase title="ext_c08c5b33_message" version_id="1000070" version_string="1.0.0"><![CDATA[<p>Мы обнаружили, что Вы используете блокировку рекламы в своём браузере.</p>
+<p>Наш сайт не переполнен баннерами, и они не повлияют на удобство просмотра нашего сайта. Сайт работает благодаря показам рекламы нашим посетителям.</p>
+<p>Пожалуйста, поддержите нас, отключив блокировку рекламы для нашего сайта.</p>]]></phrase>
+  <phrase title="option.ext_c08c5b33_path" version_id="1000070" version_string="1.0.0"><![CDATA[Путь до JS-ловушки]]></phrase>
+  <phrase title="option_explain.ext_c08c5b33_path" version_id="1000070" version_string="1.0.0"><![CDATA[Укажите путь до файла JS-ловушки (<code>ext.advert.min.js</code>), находящегося в директории форума.]]></phrase>
+  <phrase title="option.ext_c08c5b33_title" version_id="1000070" version_string="1.0.0"><![CDATA[Заголовок]]></phrase>
+  <phrase title="option_explain.ext_c08c5b33_title" version_id="1000070" version_string="1.0.0"><![CDATA[Заголовок информационного сообщения.]]></phrase>
+  <phrase title="option.ext_c08c5b33_message" version_id="1000070" version_string="1.0.0"><![CDATA[Сообщение]]></phrase>
+  <phrase title="option_explain.ext_c08c5b33_message" version_id="1000070" version_string="1.0.0"><![CDATA[Информационное сообщение при выявлении блокировки рекламы в браузере.<br/>
+<em>При пустом поле будет отображаться сообщение по умолчанию. Разрешено использовать HTML.</em>]]></phrase>
+  <phrase title="option_group.ext_c08c5b33" version_id="1000070" version_string="1.0.0"><![CDATA[AdBlock Detector]]></phrase>
+  <phrase title="option_group_description.ext_c08c5b33" version_id="1000070" version_string="1.0.0"><![CDATA[Параметры конфигурации определителя блокировки рекламы в браузере.]]></phrase>
+  <phrase title="permission.ext_c08c5b33_bypass" version_id="1000070" version_string="1.0.0"><![CDATA[Игнорировать AdBlock Detector]]></phrase>
+  <phrase title="permission_interface.ext_c08c5b33" version_id="1000070" version_string="1.0.0"><![CDATA[AdBlock Detector]]></phrase>
+</phrases>

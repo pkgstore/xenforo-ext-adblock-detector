@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public"
+            title="ext_c08c5b33_js"
+            version_id="1000070"
+            version_string="1.0.0"><![CDATA[<xf:if is="!{{ $xf.visitor.hasPermission('ext_c08c5b33', 'bypass') }}">
+  <script src="{$xf.options.boardUrl}/{$xf.options.ext_c08c5b33_path}"></script>
+  <script>
+    if(!document.getElementById("runABDetector")){let a=document.getElementById("adBlockMessage");a.classList.add("is-active");document.body.classList.add("is-modalOpen","is-modalOverlayOpen")}
+  </script>
+</xf:if>]]></template>
+  <template type="public"
+            title="ext_c08c5b33_view"
+            version_id="1000070"
+            version_string="1.0.0"><![CDATA[<xf:if is="!{{ $xf.visitor.hasPermission('ext_c08c5b33', 'bypass') }}">
+  <div id="adBlockMessage" class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-title">
+        <xf:if is="$xf.options.ext_c08c5b33_title is not empty">
+          {$xf.options.ext_c08c5b33_title}
+        <xf:else />
+          {{ phrase('ext_c08c5b33_title') }}
+        </xf:if>
+      </div>
+      <div class="overlay-content">
+        <div class="blockMessage">
+          <xf:if is="$xf.options.ext_c08c5b33_message is not empty">
+            {$xf.options.ext_c08c5b33_message|raw}
+          <xf:else />
+            {{ phrase('ext_c08c5b33_message') }}
+          </xf:if>
+        </div>
+      </div>
+    </div>
+  </div>
+</xf:if>]]></template>
+</templates>

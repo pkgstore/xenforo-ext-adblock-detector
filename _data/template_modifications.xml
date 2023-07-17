@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public"
+                template="PAGE_CONTAINER"
+                modification_key="ext_c08c5b33_view"
+                description=""
+                execution_order="9998"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[</body>]]></find>
+    <replace><![CDATA[<xf:include template="ext_c08c5b33_view" />
+$0]]></replace>
+  </modification>
+  <modification type="public"
+                template="PAGE_CONTAINER"
+                modification_key="ext_c08c5b33_js"
+                description=""
+                execution_order="9999"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[</body>]]></find>
+    <replace><![CDATA[<xf:include template="ext_c08c5b33_js" />
+$0]]></replace>
+  </modification>
+</template_modifications>
