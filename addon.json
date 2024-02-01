@@ -4,8 +4,8 @@
   "description": "Detecting ad blocking in browser. (ext_c08c5b33)",
   "version_id": 1000170,
   "version_string": "1.0.1",
-  "dev": "iHub TO",
-  "dev_url": "https://ihub.to/",
+  "dev": "Kai Kimera",
+  "dev_url": "https://kai.kim/",
   "support_url": "https://github.com/pkgstore/xenforo-ext-adblock-detector/issues",
   "require": {
     "XF": [
